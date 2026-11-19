@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HookMe — сильные ответы девушке в переписке</title>
+<meta name="description" content="HookMe — Telegram-бот, который подсказывает сильные ответы в переписке: проверки, возражения, флирт и юмор. Скинь скриншот — получи 3 варианта ответа.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%229%22%20fill%3D%22%23ff4f7b%22/%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%226.5%22%20r%3D%222.4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222.2%22%20fill%3D%22none%22/%3E%3Cpath%20d%3D%22M19%209v9.5a5.5%205.5%200%200%201-11%200V14l4%203.2%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222.6%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#ff4f7b"/><circle cx="19" cy="6.5" r="2.4" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M19 9v9.5a5.5 5.5 0 0 1-11 0V14l4 3.2" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Hook<b>Me</b></span>
+    </a>
+    <nav class="nav">
+      <a href="#how">Как работает</a>
+      <a href="#features">Возможности</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#faq">Вопросы</a>
+      <a class="btn small" href="https://t.me/HookMe_ai_bot">Открыть бота</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="tag">Telegram-бот · 18+</span>
+        <h1>Сильный ответ, <em>когда она тебя проверяет</em></h1>
+        <p class="lead">Скинь скриншот переписки — через 15–20 секунд получишь 3 ответа с юмором и флиртом и совет, какой отправить. Без оправданий, банальщины и френдзоны.</p>
+        <div class="actions">
+          <a class="btn" href="https://t.me/HookMe_ai_bot">Получить ответ бесплатно</a>
+          <a class="btn ghost" href="#how">Как это работает</a>
+        </div>
+        <p class="note">5 бесплатных генераций, без привязки карты</p>
+      </div>
+
+      <div class="phone" aria-label="Пример работы бота">
+        <div class="head">
+          <div class="ava">H</div>
+          <div><strong>HookMe</strong><small>💬 Переписка: Лера</small></div>
+        </div>
+        <div class="msg her"><span class="label">Она</span>Ты такой же, как все 🙄</div>
+        <div class="msg bot">
+          <span class="label">🧠 Провокация: проверяет, начнёшь ли доказывать, что ты особенный</span>
+          <span class="opt">1. Все так говорят 🙃</span>
+          <span class="opt">2. Возможно. Но переписываешься ты почему-то со мной 😉</span>
+          <span class="opt">3. Обидно. Я неделю тренировался быть уникальным. Где спалился?</span>
+          <span class="opt"><span class="star">⭐ Совет:</span> вариант 1 — не оправдываешься и возвращаешь ей её же шаблон</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pain">
+    <div class="wrap">
+      <h2 class="section-title">Узнаёшь себя?</h2>
+      <p class="section-lead">Переписки сливаются не потому, что ты неинтересный, а из-за пары неверных сообщений в ключевой момент.</p>
+      <div class="grid c3">
+        <div class="card"><div class="icon">🥶</div><h3>«Ок», «ахах», «ясно»</h3><p>Ты стараешься, пишешь развёрнуто, а в ответ сухие односложные сообщения и тишина.</p></div>
+        <div class="card"><div class="icon">🧱</div><h3>Она проверяет — ты оправдываешься</h3><p>«Ты всем так пишешь?», «Удиви меня», «Я не встречаюсь с парнями из интернета» — и разговор уходит в никуда.</p></div>
+        <div class="card"><div class="icon">🤝</div><h3>Общаетесь, но до встречи не доходит</h3><p>Неделями приятная переписка, а потом «ты классный, но…» и место в френдзоне.</p></div>
+      </div>
+      <p class="note" style="margin-top:24px;font-size:16px">HookMe подскажет сильный ход именно в этот момент — и объяснит, почему он сработает.</p>
+    </div>
+  </section>
+
+  <section id="how" class="alt">
+    <div class="wrap">
+      <h2 class="section-title">Как это работает</h2>
+      <p class="section-lead">Три шага — и у тебя готовый ответ, который хочется отправить.</p>
+      <div class="grid c3">
+        <div class="card"><div class="num">1</div><h3>Создай переписку</h3><p>Назови девушку как удобно. Бот запоминает историю общения и детали отдельно для каждой.</p></div>
+        <div class="card"><div class="num">2</div><h3>Скинь скриншот</h3><p>Анкету, чат из приложения знакомств или мессенджера. Можно текстом или пересланным голосовым.</p></div>
+        <div class="card"><div class="num">3</div><h3>Выбери ответ</h3><p>3 варианта разного тона, разбор ситуации и совет, какой отправить. Скопировать — одним нажатием.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2 class="section-title">Что умеет HookMe</h2>
+      <p class="section-lead">Не генератор банальных подкатов, а помощник в моменты, где обычно всё и сливается.</p>
+      <div class="grid c3">
+        <div class="card"><div class="icon">🛡️</div><h3>Проверки и возражения</h3><p>«Ты всем так пишешь?», «Я не даю номер», «Удиви меня» — спокойный уверенный ответ без оправданий.</p></div>
+        <div class="card"><div class="icon">😏</div><h3>Флирт и юмор</h3><p>Остроумные ответы, стёб и флирт по ступеням — чтобы не застрять во френдзоне и не выглядеть клоуном.</p></div>
+        <div class="card"><div class="icon">☕</div><h3>Путь к встрече</h3><p>Подсказывает, когда пора звать на свидание и как сделать это уверенно, а не просяще.</p></div>
+        <div class="card"><div class="icon">🧠</div><h3>Память о переписке</h3><p>Помнит, о чём вы говорили, её увлечения и общие шутки — ответы не повторяются.</p></div>
+        <div class="card"><div class="icon">🎙️</div><h3>Голосовые</h3><p>Перешли её голосовое — бот расшифрует и предложит, что ответить.</p></div>
+        <div class="card"><div class="icon">✏️</div><h3>Правки в один клик</h3><p>Короче, смелее, смешнее или мягче — переделает вариант под твой стиль.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="style" class="alt">
+    <div class="wrap">
+      <h2 class="section-title">Как пишет HookMe</h2>
+      <p class="section-lead">Не шаблонные подкаты из интернета, а принципы, по которым общаются уверенные мужчины.</p>
+      <div class="grid c4">
+        <div class="card"><h3>Не оправдывается</h3><p>На проверку отвечает шуткой или спокойствием, а не доказательствами.</p></div>
+        <div class="card"><h3>Не перехваливает</h3><p>Никаких «ты богиня». Интерес — через внимание к деталям и юмор.</p></div>
+        <div class="card"><h3>Флиртует вовремя</h3><p>Держит ритм: шутка, искренность, флирт — чтобы не стать ни клоуном, ни другом.</p></div>
+        <div class="card"><h3>Ведёт к встрече</h3><p>Зовёт уверенно и конкретно, а не «если ты не против».</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <h2 class="section-title">Тарифы</h2>
+      <p class="section-lead">Генерация — один ответ бота с тремя вариантами. До 3 правок каждого ответа — бесплатно.</p>
+      <div class="grid c4">
+        <div class="card price">
+          <div class="name">Пробный</div>
+          <div class="amount">0 ₽</div>
+          <ul><li>5 генераций</li><li>Один раз на аккаунт</li><li>Все функции бота</li></ul>
+        </div>
+        <div class="card price">
+          <div class="name">Неделя</div>
+          <div class="amount">199 ₽</div>
+          <ul><li>40 генераций</li><li>Действует 7 дней</li><li>Все функции бота</li></ul>
+        </div>
+        <div class="card price hot">
+          <span class="badge">Выгоднее</span>
+          <div class="name">Месяц</div>
+          <div class="amount">499 ₽</div>
+          <ul><li>120 генераций</li><li>Действует 30 дней</li><li>До 15 генераций в день</li></ul>
+        </div>
+        <div class="card price">
+          <div class="name">Докупка</div>
+          <div class="amount">149 ₽</div>
+          <ul><li>+50 генераций</li><li>При активном тарифе</li><li>Действует 30 дней</li></ul>
+        </div>
+      </div>
+      <p class="note" style="margin-top:20px">Оплата картой, через СБП или SberPay на защищённой странице платёжного сервиса ЮKassa. Доступ к тарифу открывается в Telegram-боте <a href="https://t.me/HookMe_ai_bot">@HookMe_ai_bot</a> автоматически сразу после оплаты. Автоматических списаний нет. Чек приходит на почту, указанную при оплате.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="alt">
+    <div class="wrap">
+      <h2 class="section-title">Вопросы</h2>
+      <p class="section-lead">Коротко о главном.</p>
+      <details><summary>Вы храните мои скриншоты?</summary><p>Нет. Скриншоты и голосовые обрабатываются и сразу удаляются. Для памяти о переписке сохраняется только текст сообщений и короткие заметки о собеседнице. Любую переписку можно удалить в боте, а все свои данные — командой /delete_me.</p></details>
+      <details><summary>Девушка поймёт, что ответ придумал бот?</summary><p>Ответы пишутся как живые сообщения в мессенджере: коротко, с разговорными словами и без шаблонов. Ты всегда можешь отредактировать вариант перед отправкой.</p></details>
+      <details><summary>Это работает в Tinder, Twinby, VK, Telegram?</summary><p>Да. Боту не важно, откуда скриншот: приложение знакомств, соцсеть или мессенджер.</p></details>
+      <details><summary>Что если генерации закончатся?</summary><p>Можно купить тариф или докупить пакет из 50 генераций. На месячном тарифе действует лимит 15 генераций в сутки, он обновляется каждый день.</p></details>
+      <details><summary>Можно вернуть деньги?</summary><p>Да, по условиям <a href="offer.html#refund">оферты</a>: напиши на почту поддержки, и мы вернём деньги за неиспользованную часть тарифа.</p></details>
+      <details><summary>Для кого этот сервис?</summary><p>Только для пользователей старше 18 лет. Бот помогает общаться уверенно и с уважением, а не манипулировать.</p></details>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <div class="card">
+        <h2 class="section-title">Следующее её сообщение — уже не проблема</h2>
+        <p class="section-lead" style="margin:0 auto 28px">5 ответов бесплатно, без карты. Проверь на своей переписке прямо сейчас.</p>
+        <a class="btn" href="https://t.me/HookMe_ai_bot">Открыть HookMe в Telegram</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>HookMe</h4>
+      <p>ИИ-помощник для переписки в Telegram</p>
+      <p><a href="https://t.me/HookMe_ai_bot">@HookMe_ai_bot</a></p>
+    </div>
+    <div>
+      <h4>Документы</h4>
+      <p><a href="offer.html">Публичная оферта</a></p>
+      <p><a href="privacy.html">Политика конфиденциальности</a></p>
+    </div>
+    <div>
+      <h4>Реквизиты</h4>
+      <p>Самозанятый Пшеничный Ростислав Александрович</p>
+      <p>ИНН 231294979015</p>
+      <p>Поддержка: <a href="mailto:hookme.support@gmail.com">hookme.support@gmail.com</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
